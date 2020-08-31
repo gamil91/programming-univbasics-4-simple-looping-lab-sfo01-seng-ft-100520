@@ -22,3 +22,10 @@ def output_array(array)
 end
 end
 
+def return_string_array(array)
+  new_array = []
+  while i < array.length do
+   new_array.push(array[i].to_s)
+   i += 1 
+   return new_array
+end
