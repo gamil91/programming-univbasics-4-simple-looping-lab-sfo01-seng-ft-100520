@@ -17,6 +17,6 @@ end
 def output_array(array)
   while i < array.length do
     puts array[i]
-    i++
+    i+=
 end
 end
