@@ -15,7 +15,8 @@ end
 end 
 
 def output_array(array)
-  while i = 0 < array.length do
+  i = 0 
+  while i < array.length do
     puts array[i]
     i += 1 
 end
